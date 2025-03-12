@@ -2,154 +2,1722 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
   <title>TEST</title>
   <link>https://test.com.ua</link>
-  <updated>2025-03-12T14:35:42.556Z</updated>
+  <updated>2025-03-12T15:08:03.692Z</updated>
   <entry>
-    <g:id>6356</g:id>
-    <g:price>338.000000</g:price>
+    <g:id>6674</g:id>
+    <g:price>167.000000</g:price>
     <g:old_price>0.0000</g:old_price>
-    <g:image>Yuvel-BR058-Sh7mm-L18cm-338.JPG</g:image>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-069-1-BZ-L17-19cm-167.jpg</g:image>
     <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
     <g:description></g:description>
-    <g:articul>Yuvel-BR058</g:articul>
-    <g:meta_title>Браслет Xuping I "Парижанка"- бижутерия оптом.</g:meta_title>
-    <g:meta_desc>Большой выбор ювелирной бижутерии с покрытием и гарантией - кольца, браслеты,
-      серьги, наборы</g:meta_desc>
-    <g:meta_keywords>купить Xuping бижутерия кольца браслеты оптом парижанка Украина</g:meta_keywords>
-    <g:slug>braslet-xuping-8</g:slug>
-    <g:category_name>Браслеты Xuping</g:category_name>
+    <g:articul>Xuping-BR-069-1</g:articul>
+    <g:meta_title>Браслет Xuping белое золото | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping біле золото Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-61</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
 
     <g:product_attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Цвет</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Размер</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
         <g:attribute_ru>упаковка</g:attribute_ru>
         <g:value_ru>1шт.</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
         <g:attribute_ru>Покрытие изделия</g:attribute_ru>
-        <g:value_ru>золото 18К</g:value_ru>
+        <g:value_ru>белое золото </g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>біле золото </g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
         <g:attribute_ru>Вставка</g:attribute_ru>
         <g:value_ru>цирконы</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Камень</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Тип застёжки</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Ширина изделия</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
         <g:attribute_ru>Материал</g:attribute_ru>
         <g:value_ru>Медицинский сплав</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Цвет основы</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>зеленый</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>зелений</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>6675</g:id>
+    <g:price>167.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-069-2-BZ-L17-19cm-167.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-069-2</g:articul>
+    <g:meta_title>Браслет Xuping белое золото | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping біле золото Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-62</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Проба</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>белое золото </g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>біле золото </g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Обруч</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Мультсерия</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Расцветка</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Крепёж</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Назначение</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Тип</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
-      </g:attribute>
-      <g:attribute>
-        <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Декор</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
-        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
         <g:attribute_ru>Цвет вставки</g:attribute_ru>
         <g:value_ru>белый</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>6728</g:id>
+    <g:price>145.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-095-BZ-L17-19cm-145.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-095</g:articul>
+    <g:meta_title>Браслет Xuping белое золото (родий) | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping біле золото (родій) Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-68</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Размер изделия</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>белое золото </g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>біле золото </g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7070</g:id>
+    <g:price>210.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-120-18K-__6cm-210.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-120</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-72</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7078</g:id>
+    <g:price>69.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-129-2-18K-L16-22cm-47.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-129-2</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-80</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>шёлк</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>шовк</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7079</g:id>
+    <g:price>53.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-131-18K-L16-22cm-47.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-131</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-81</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>шёлк</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>шовк</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7081</g:id>
+    <g:price>97.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-139-RZ-L20cm-97.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-139</g:articul>
+    <g:meta_title>Браслет Xuping розовое золото (советское) | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping рожеве золото (радянське) Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-83</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>розовое золото (советское)</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>рожеве золото (радянське)</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>без вставки</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>без вставки</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
         <g:attribute_ru>Плетение</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
+        <g:value_ru>Ролло</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Плетіння</g:attribute_ua>
+        <g:value_ua>Ролло</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7083</g:id>
+    <g:price>93.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-143-RZ-L19cm-SH10mm-93.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-143</g:articul>
+    <g:meta_title>Браслет Xuping розовое золото (советское) | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping рожеве золото (радянське) Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-85</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
       </g:attribute>
       <g:attribute>
         <g:group_ru>Характеристики</g:group_ru>
-        <g:attribute_ru>Материал шнурка</g:attribute_ru>
-        <g:value_ru>null</g:value_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>розовое золото (советское)</g:value_ru>
         <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>рожеве золото (радянське)</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>без вставки</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>без вставки</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7088</g:id>
+    <g:price>83.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-150-18K-L19cm-SH12mm-83.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-150</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-90</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>без вставки</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>без вставки</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7093</g:id>
+    <g:price>235.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-159-18K-L19-23cm-SH3cm-235.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-159</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-95</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7094</g:id>
+    <g:price>235.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-160-18K-L18cm-SH3cm-235.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-160</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-96</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7246</g:id>
+    <g:price>55.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-180-18K-L12-20cm-55.jpg</g:image>
+    <g:name>Браслет Xuping "Шамбала"</g:name>
+    <g:name_ua>Браслет Xuping &quot;Шамбала&quot;</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-180</g:articul>
+    <g:meta_title>Браслет Xuping "Шамбала" золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping &quot;Шамбала&quot; золото 18К Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-shambala-2</g:slug>
+    <g:slug_ru>браслет-xuping-шамбала</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>шёлк</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>шовк</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7247</g:id>
+    <g:price>65.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-181-18K-L12-20cm-65.jpg</g:image>
+    <g:name>Браслет Xuping "Шамбала"</g:name>
+    <g:name_ua>Браслет Xuping &quot;Шамбала&quot;</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-181</g:articul>
+    <g:meta_title>Браслет Xuping "Шамбала" золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping &quot;Шамбала&quot; золото 18К Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-shambala-3</g:slug>
+    <g:slug_ru>браслет-xuping-шамбала</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7263</g:id>
+    <g:price>85.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-183-18K-L16-23cm-85.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-183</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-100</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Плетение</g:attribute_ru>
+        <g:value_ru>Венецианское</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Плетіння</g:attribute_ua>
+        <g:value_ua>Венеціанське</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7264</g:id>
+    <g:price>99.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-184-18K-L16-23cm-99.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-184</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-101</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Плетение</g:attribute_ru>
+        <g:value_ru>Венецианское</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Плетіння</g:attribute_ua>
+        <g:value_ua>Венеціанське</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7266</g:id>
+    <g:price>91.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-186-18K-L16-23cm-91.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-186</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К| Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К| Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-103</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Плетение</g:attribute_ru>
+        <g:value_ru>Венецианское</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Плетіння</g:attribute_ua>
+        <g:value_ua>Венеціанське</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7274</g:id>
+    <g:price>129.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-203-18K-L17-20cm-Sh5mm-129.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-203</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-111</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>микс</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>змішувати</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7275</g:id>
+    <g:price>97.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-205-18K-L17-19cm-Sh6mm-97.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-205</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-112</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7291</g:id>
+    <g:price>188.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-248-L17-Sh9mm-188.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>Xuping-BR-248</g:articul>
+    <g:meta_title>Браслет Xuping белое золото (родий) | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping біле золото (родій) Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-119</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>белое золото </g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>біле золото </g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7347</g:id>
+    <g:price>95.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-802069-18K-L18-24cm-95.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>802069</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-121</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>Медичний сплав</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Колір вставки</g:attribute_ua>
+        <g:value_ua>білий</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7348</g:id>
+    <g:price>89.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-803029-18K-L18cm-89.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>803029</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-122</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>упаковка</g:attribute_ua>
+        <g:value_ua>1 шт.</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>без вставки</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>без вставки</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>шёлк</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Матеріал</g:attribute_ua>
+        <g:value_ua>шовк</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7361</g:id>
+    <g:price>89.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-BR-R5500-L17-20cm-Sh7mm-BZ-89.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>R5500</g:articul>
+    <g:meta_title>Браслет Xuping белое золото (родий) | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping біле золото (родій) Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-125</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>белое золото </g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>біле золото </g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7423</g:id>
+    <g:price>143.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Braslet-Xuping-804070-L21cm-Sh9mm-18K-115.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>804072</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-128</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7458</g:id>
+    <g:price>128.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-Braslet-801076-L17cm-18K-MZ-128.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>801076</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-132</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Тип застёжки</g:attribute_ru>
+        <g:value_ru>магнитный замочек</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Тип застібки</g:attribute_ua>
+        <g:value_ua>магнітний замочок</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7459</g:id>
+    <g:price>128.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-Braslet-801077-L17cm-18K-BZ-MZ-128.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>801077</g:articul>
+    <g:meta_title>Браслет Xuping 18К и белое золото (родий) | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping 18К та біле золото (родій) | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-133</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>18К + белое золото</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>18К + біле золото</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Тип застёжки</g:attribute_ru>
+        <g:value_ru>магнитный замочек</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Тип застібки</g:attribute_ua>
+        <g:value_ua>магнітний замочок</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7461</g:id>
+    <g:price>128.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-Braslet-801079-L17cm-18K-BZ-MZ-128.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>801079</g:articul>
+    <g:meta_title>Браслет Xuping 18К и белое золото(родий) | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping 18К та біле золото(родій) | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-135</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>18К + белое золото</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>18К + біле золото</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Тип застёжки</g:attribute_ru>
+        <g:value_ru>магнитный замочек</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Тип застібки</g:attribute_ua>
+        <g:value_ua>магнітний замочок</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7463</g:id>
+    <g:price>78.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-Braslet-804024-ML22cm-18K-78.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>804024</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-137</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7488</g:id>
+    <g:price>77.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-Bras-805063-L18cm-MZ-18K-77.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>805063</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-142</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Тип застёжки</g:attribute_ru>
+        <g:value_ru>магнитный замочек</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Тип застібки</g:attribute_ua>
+        <g:value_ua>магнітний замочок</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7506</g:id>
+    <g:price>109.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-Bras-807032-L21cm-Sh8mm-18K-109.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>807032</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-147</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+  <entry>
+    <g:id>7526</g:id>
+    <g:price>85.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>
+      https://parizhanka.com.ua/components/com_jshopping/files/img_products/Xuping-Bras-807057-Sh6mm-L17-20cm-18K-85.jpg</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:name_ua>Браслет Xuping</g:name_ua>
+    <g:description></g:description>
+    <g:articul>807057</g:articul>
+    <g:meta_title>Браслет Xuping золото 18К | Парижанка</g:meta_title>
+    <g:meta_title_ua>Браслет Xuping золото 18К | Парижанка</g:meta_title_ua>
+    <g:meta_desc>Долговечное покрытие золотом 18К, родием, серебром.</g:meta_desc>
+    <g:meta_keywords>купить Xuping оптом, купить браслет Xuping</g:meta_keywords>
+    <g:slug>braslet-xuping-152</g:slug>
+    <g:slug_ru>браслет-xuping</g:slug_ru>
+    <g:category_name>Браслети Xuping</g:category_name>
+
+    <g:description_ua></g:description_ua>
+    <g:meta_desc_ua>Довговічне покриття золотом 18К, родієм, сріблом.</g:meta_desc_ua>
+    <g:meta_keywords_ua>купити Xuping оптом, купити браслет Xuping</g:meta_keywords_ua>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Покриття виробу</g:attribute_ua>
+        <g:value_ua>золото 18К</g:value_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+        <g:attribute_ua>Вставка</g:attribute_ua>
+        <g:value_ua>циркони</g:value_ua>
       </g:attribute>
     </g:product_attribute>
   </entry>

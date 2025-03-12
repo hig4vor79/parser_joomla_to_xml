@@ -11,6 +11,7 @@ export const CONFIG = {
   DB_PASS: process.env.DB_PASS,
   BASE_URL: process.env.BASE_URL,
   IMAGE_URL: process.env.IMAGE_URL,
+  IMAGE_PRODUCT_URL: process.env.IMAGE_PRODUCT_URL,
   GOOGLE_TRANSLATE_API_KEY: process.env.GOOGLE_TRANSLATE_API_KEY,
   TRANSLATE_TO: process.env.TRANSLATE_TO,
 };
@@ -209,7 +210,7 @@ const parsProducts = async (connection) => {
         p.\`meta_keyword_ru-RU\` AS meta_keywords,
         p.\`alias_ru-RU\` AS slug,
         c.\`name_ru-RU\` AS category_name,
-        
+    
         ${Array.from(
           { length: 22 },
           (_, i) => `
@@ -221,7 +222,7 @@ const parsProducts = async (connection) => {
       FROM bagtop_jshopping_products AS p
       LEFT JOIN bagtop_jshopping_products_to_categories AS cp ON cp.product_id = p.product_id
       LEFT JOIN bagtop_jshopping_categories AS c ON cp.category_id = c.category_id
-      
+    
       ${Array.from(
         { length: 22 },
         (_, i) => `
@@ -233,9 +234,9 @@ const parsProducts = async (connection) => {
         } ON p.extra_field_${i + 1} = efv${i + 1}.id
       `
       ).join(" ")}
-      
-      WHERE p.product_ean = ?`,
-      ["Yuvel-BR058"]
+    
+      WHERE c.\`name_ru-RU\` = "Браслеты Xuping" 
+      LIMIT 30, 30;` // Updated LIMIT clause
     );
 
     console.log("PARS IS SUCCESS");
@@ -335,7 +336,7 @@ const writeToXML = (results, fileName) => {
   console.log("Файл feed.xml успешно создан.");
 };
 
-const writeProductsToXML = (results, fileName) => {
+const writeProductsToXML = async (results, fileName) => {
   // Создание XML структуры
   const xmlHeader = `<?xml version="1.0" encoding="UTF-8"?>`;
   const xmlOpening = `<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">`;
@@ -343,8 +344,9 @@ const writeProductsToXML = (results, fileName) => {
   const xmlLink = `<link>https://test.com.ua</link>`;
   const xmlUpdated = `<updated>${new Date().toISOString()}</updated>`;
 
-  const xmlEntries = results
-    .map((result) => {
+  const xmlEntries = await Promise.all(
+    // Используем Promise.all для ожидания всех асинхронных операций
+    results.map(async (result) => {
       const attributes = [];
 
       // Обработка атрибутов с префиксом array__
@@ -360,46 +362,82 @@ const writeProductsToXML = (results, fileName) => {
         }
       }
 
-      // Формируем строку для каждого атрибута
-      const productAttributes = attributes
-        .map(({ name, value }) => {
+      // Формируем строки для каждого атрибута асинхронно
+      const productAttributes = await Promise.all(
+        attributes.map(async ({ name, value }) => {
+          // Пропускаем атрибуты с пустым значением или 'null'
+          if (
+            value == null ||
+            value.trim() === "" ||
+            value.toLowerCase() === "null"
+          ) {
+            return ""; // Пропускаем атрибут с пустым значением или null
+          }
+
           return `<g:attribute>
               <g:group_ru>Характеристики</g:group_ru>
               <g:attribute_ru>${name}</g:attribute_ru>
               <g:value_ru>${value}</g:value_ru>
               <g:group_ua>Характеристики</g:group_ua>
-          </g:attribute>`;
+              <g:attribute_ua>${await translateText(
+                name,
+                "uk"
+              )}</g:attribute_ua>
+              <g:value_ua>${await translateText(value, "uk")}</g:value_ua>
+            </g:attribute>`;
         })
-        .join("\n");
+      );
+
+      // Убираем пустые строки из результата и объединяем их в одну строку с разделением на новые строки
+      const validProductAttributes = productAttributes
+        .filter((attr) => attr !== "") // Убираем пустые строки
+        .join("\n"); // Собираем результат в одну строку
+
+      // Асинхронный вызов перевода
+      const name_ua = await translateText(result.name, "uk");
+      const meta_title_ua = await translateText(result.meta_title, "uk");
+      const description_ua = await translateText(result.description, "uk");
+      const meta_desc_ua = await translateText(result.meta_desc, "uk");
+      const meta_keywords_ua = await translateText(result.meta_keywords, "uk");
+      result.category_name = await translateText(result.category_name, "uk");
+
+      const slug_ru = generateSlug(result.name);
 
       // Формирование XML-структуры для каждого результата
       return `<entry>
         <g:id>${result.id}</g:id>
         <g:price>${result.price}</g:price>
         <g:old_price>${result.old_price}</g:old_price>
-        <g:image>${result.image}</g:image>
+        <g:image>${CONFIG.IMAGE_PRODUCT_URL + result.image}</g:image>
         <g:name>${result.name}</g:name>
+        <g:name_ua>${name_ua}</g:name_ua>
         <g:description>${result.description}</g:description>
         <g:articul>${result.articul}</g:articul>
         <g:meta_title>${result.meta_title}</g:meta_title>
+        <g:meta_title_ua>${meta_title_ua}</g:meta_title_ua>
         <g:meta_desc>${result.meta_desc}</g:meta_desc>
         <g:meta_keywords>${result.meta_keywords}</g:meta_keywords>
         <g:slug>${result.slug}</g:slug>
+        <g:slug_ru>${slug_ru}</g:slug_ru>
         <g:category_name>${result.category_name}</g:category_name>
 
+        <g:description_ua>${description_ua}</g:description_ua>
+        <g:meta_desc_ua>${meta_desc_ua}</g:meta_desc_ua>
+        <g:meta_keywords_ua>${meta_keywords_ua}</g:meta_keywords_ua>
+
         <g:product_attribute>
-          ${productAttributes}
+          ${validProductAttributes}
         </g:product_attribute>
       </entry>`;
     })
-    .join("\n");
+  );
 
   const xmlContent = `${xmlHeader}
         ${xmlOpening}
         ${xmlTitle}
         ${xmlLink}
         ${xmlUpdated}
-        ${xmlEntries}
+        ${xmlEntries.join("\n")}
       </feed>`;
 
   // Запись в файл
@@ -407,13 +445,13 @@ const writeProductsToXML = (results, fileName) => {
   console.log("Файл feed.xml успешно создан.");
 };
 
-const translateText = async (text, targetLanguage = "ru") => {
+const translateText = async (text, targetLanguage) => {
   const url = `https://translation.googleapis.com/language/translate/v2?key=${CONFIG.GOOGLE_TRANSLATE_API_KEY}`;
 
   try {
     const response = await axios.post(url, {
-      q: text,
-      target: targetLanguage,
+      q: text, // текст для перевода
+      target: targetLanguage, // целевой язык
     });
 
     const translatedText = response.data.data.translations[0].translatedText;
