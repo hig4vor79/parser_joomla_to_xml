@@ -1,65 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
-        <title>TEST</title>
-        <link>https://test.com.ua</link>
-        <updated>2025-03-12T12:27:20.857Z</updated>
-        
-      <entry>
-        <g:id>6356</g:id>
-<g:price>338.000000</g:price>
-<g:old_price>0.0000</g:old_price>
-<g:image>Yuvel-BR058-Sh7mm-L18cm-338.JPG</g:image>
-<g:name>Браслет Xuping</g:name>
-<g:description></g:description>
-<g:articul>Yuvel-BR058</g:articul>
-<g:meta_title>Браслет Xuping I "Парижанка"- бижутерия оптом.</g:meta_title>
-<g:meta_desc>Большой выбор ювелирной бижутерии с покрытием и гарантией - кольца, браслеты, серьги, наборы</g:meta_desc>
-<g:meta_keywords>купить Xuping бижутерия кольца  браслеты оптом парижанка Украина</g:meta_keywords>
-<g:slug>braslet-xuping-8</g:slug>
-<g:category_name>Браслеты Xuping</g:category_name>
-<g:option_name_1>Цвет</g:option_name_1>
-<g:option_value_1>null</g:option_value_1>
-<g:option_name_2>Размер</g:option_name_2>
-<g:option_value_2>null</g:option_value_2>
-<g:option_name_3>упаковка</g:option_name_3>
-<g:option_value_3>1шт.</g:option_value_3>
-<g:option_name_4>Покрытие изделия</g:option_name_4>
-<g:option_value_4>золото 18К</g:option_value_4>
-<g:option_name_5>Вставка</g:option_name_5>
-<g:option_value_5>цирконы</g:option_value_5>
-<g:option_name_6>Камень</g:option_name_6>
-<g:option_value_6>null</g:option_value_6>
-<g:option_name_7>Тип застёжки</g:option_name_7>
-<g:option_value_7>null</g:option_value_7>
-<g:option_name_8>Ширина изделия</g:option_name_8>
-<g:option_value_8>null</g:option_value_8>
-<g:option_name_9>Материал</g:option_name_9>
-<g:option_value_9>Медицинский сплав</g:option_value_9>
-<g:option_name_10>Цвет основы</g:option_name_10>
-<g:option_value_10>null</g:option_value_10>
-<g:option_name_11>Проба</g:option_name_11>
-<g:option_value_11>null</g:option_value_11>
-<g:option_name_12>Обруч</g:option_name_12>
-<g:option_value_12>null</g:option_value_12>
-<g:option_name_13>Мультсерия</g:option_name_13>
-<g:option_value_13>null</g:option_value_13>
-<g:option_name_14>Расцветка</g:option_name_14>
-<g:option_value_14>null</g:option_value_14>
-<g:option_name_15>Крепёж</g:option_name_15>
-<g:option_value_15>null</g:option_value_15>
-<g:option_name_16>Назначение</g:option_name_16>
-<g:option_value_16>null</g:option_value_16>
-<g:option_name_17>Тип</g:option_name_17>
-<g:option_value_17>null</g:option_value_17>
-<g:option_name_18>Декор</g:option_name_18>
-<g:option_value_18>null</g:option_value_18>
-<g:option_name_19>Цвет вставки</g:option_name_19>
-<g:option_value_19>белый</g:option_value_19>
-<g:option_name_20>Размер изделия</g:option_name_20>
-<g:option_value_20>null</g:option_value_20>
-<g:option_name_21>Плетение</g:option_name_21>
-<g:option_value_21>null</g:option_value_21>
-<g:option_name_22>Материал шнурка</g:option_name_22>
-<g:option_value_22>null</g:option_value_22>
-      </entry>
-      </feed>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
+  <title>TEST</title>
+  <link>https://test.com.ua</link>
+  <updated>2025-03-12T14:35:42.556Z</updated>
+  <entry>
+    <g:id>6356</g:id>
+    <g:price>338.000000</g:price>
+    <g:old_price>0.0000</g:old_price>
+    <g:image>Yuvel-BR058-Sh7mm-L18cm-338.JPG</g:image>
+    <g:name>Браслет Xuping</g:name>
+    <g:description></g:description>
+    <g:articul>Yuvel-BR058</g:articul>
+    <g:meta_title>Браслет Xuping I "Парижанка"- бижутерия оптом.</g:meta_title>
+    <g:meta_desc>Большой выбор ювелирной бижутерии с покрытием и гарантией - кольца, браслеты,
+      серьги, наборы</g:meta_desc>
+    <g:meta_keywords>купить Xuping бижутерия кольца браслеты оптом парижанка Украина</g:meta_keywords>
+    <g:slug>braslet-xuping-8</g:slug>
+    <g:category_name>Браслеты Xuping</g:category_name>
+
+    <g:product_attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Размер</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>упаковка</g:attribute_ru>
+        <g:value_ru>1шт.</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Покрытие изделия</g:attribute_ru>
+        <g:value_ru>золото 18К</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Вставка</g:attribute_ru>
+        <g:value_ru>цирконы</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Камень</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Тип застёжки</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Ширина изделия</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал</g:attribute_ru>
+        <g:value_ru>Медицинский сплав</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет основы</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Проба</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Обруч</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Мультсерия</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Расцветка</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Крепёж</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Назначение</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Тип</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Декор</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Цвет вставки</g:attribute_ru>
+        <g:value_ru>белый</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Размер изделия</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Плетение</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+      <g:attribute>
+        <g:group_ru>Характеристики</g:group_ru>
+        <g:attribute_ru>Материал шнурка</g:attribute_ru>
+        <g:value_ru>null</g:value_ru>
+        <g:group_ua>Характеристики</g:group_ua>
+      </g:attribute>
+    </g:product_attribute>
+  </entry>
+</feed>

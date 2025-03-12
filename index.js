@@ -213,8 +213,8 @@ const parsProducts = async (connection) => {
         ${Array.from(
           { length: 22 },
           (_, i) => `
-          ef${i + 1}.\`name_ru-RU\` AS option_name_${i + 1},
-          efv${i + 1}.\`name_ru-RU\` AS option_value_${i + 1}
+          ef${i + 1}.\`name_ru-RU\` AS array__option_${i + 1}_name,
+          efv${i + 1}.\`name_ru-RU\` AS array__option_${i + 1}_value
         `
         ).join(",")}
       
@@ -304,24 +304,6 @@ const parsCategories = async (connection) => {
   }
 };
 
-const translateText = async (text, targetLanguage = "ru") => {
-  const url = `https://translation.googleapis.com/language/translate/v2?key=${CONFIG.GOOGLE_TRANSLATE_API_KEY}`;
-
-  try {
-    const response = await axios.post(url, {
-      q: text,
-      target: targetLanguage,
-    });
-
-    const translatedText = response.data.data.translations[0].translatedText;
-
-    return translatedText;
-  } catch (error) {
-    console.error("Error during translation:", error);
-    throw error;
-  }
-};
-
 const writeToXML = (results, fileName) => {
   // Создание XML структуры
   const xmlHeader = `<?xml version="1.0" encoding="UTF-8"?>`;
@@ -353,6 +335,96 @@ const writeToXML = (results, fileName) => {
   console.log("Файл feed.xml успешно создан.");
 };
 
+const writeProductsToXML = (results, fileName) => {
+  // Создание XML структуры
+  const xmlHeader = `<?xml version="1.0" encoding="UTF-8"?>`;
+  const xmlOpening = `<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">`;
+  const xmlTitle = `<title>TEST</title>`;
+  const xmlLink = `<link>https://test.com.ua</link>`;
+  const xmlUpdated = `<updated>${new Date().toISOString()}</updated>`;
+
+  const xmlEntries = results
+    .map((result) => {
+      const attributes = [];
+
+      // Обработка атрибутов с префиксом array__
+      for (let i = 1; i <= 22; i++) {
+        const nameKey = `array__option_${i}_name`;
+        const valueKey = `array__option_${i}_value`;
+
+        if (result[nameKey]) {
+          attributes.push({
+            name: result[nameKey],
+            value: result[valueKey] || "null", // Если значение пустое, то ставим 'null'
+          });
+        }
+      }
+
+      // Формируем строку для каждого атрибута
+      const productAttributes = attributes
+        .map(({ name, value }) => {
+          return `<g:attribute>
+              <g:group_ru>Характеристики</g:group_ru>
+              <g:attribute_ru>${name}</g:attribute_ru>
+              <g:value_ru>${value}</g:value_ru>
+              <g:group_ua>Характеристики</g:group_ua>
+          </g:attribute>`;
+        })
+        .join("\n");
+
+      // Формирование XML-структуры для каждого результата
+      return `<entry>
+        <g:id>${result.id}</g:id>
+        <g:price>${result.price}</g:price>
+        <g:old_price>${result.old_price}</g:old_price>
+        <g:image>${result.image}</g:image>
+        <g:name>${result.name}</g:name>
+        <g:description>${result.description}</g:description>
+        <g:articul>${result.articul}</g:articul>
+        <g:meta_title>${result.meta_title}</g:meta_title>
+        <g:meta_desc>${result.meta_desc}</g:meta_desc>
+        <g:meta_keywords>${result.meta_keywords}</g:meta_keywords>
+        <g:slug>${result.slug}</g:slug>
+        <g:category_name>${result.category_name}</g:category_name>
+
+        <g:product_attribute>
+          ${productAttributes}
+        </g:product_attribute>
+      </entry>`;
+    })
+    .join("\n");
+
+  const xmlContent = `${xmlHeader}
+        ${xmlOpening}
+        ${xmlTitle}
+        ${xmlLink}
+        ${xmlUpdated}
+        ${xmlEntries}
+      </feed>`;
+
+  // Запись в файл
+  fs.writeFileSync(fileName, xmlContent);
+  console.log("Файл feed.xml успешно создан.");
+};
+
+const translateText = async (text, targetLanguage = "ru") => {
+  const url = `https://translation.googleapis.com/language/translate/v2?key=${CONFIG.GOOGLE_TRANSLATE_API_KEY}`;
+
+  try {
+    const response = await axios.post(url, {
+      q: text,
+      target: targetLanguage,
+    });
+
+    const translatedText = response.data.data.translations[0].translatedText;
+
+    return translatedText;
+  } catch (error) {
+    console.error("Error during translation:", error);
+    throw error;
+  }
+};
+
 const main = async () => {
   const connection = await mysql.createConnection({
     host: CONFIG.DB_HOST,
@@ -363,7 +435,7 @@ const main = async () => {
   console.log("Подключение к базе данных успешно установлено");
 
   const parsResult = await parsProducts(connection);
-  writeToXML(parsResult, "products.xml");
+  writeProductsToXML(parsResult, "products.xml");
 
   // const parsResultCat = await parsCategories(connection);
   // writeToXML(parsResultCat, "categories.xml");

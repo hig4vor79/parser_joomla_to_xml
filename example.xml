@@ -13,28 +13,20 @@
         <g:product_attribute>
             <g:attribute>
                 <g:group_ru>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_ru>
-                <g:attribute_ru>Материал </g:attribute_ru>
-                <g:value_ru>листовая сталь</g:value_ru>
-                <g:group_uk>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_uk>
-                <g:attribute_uk>Материал </g:attribute_uk>
-                <g:value_uk>листовая сталь</g:value_uk>
+                <g:attribute_ru>Цвет </g:attribute_ru>
+                <g:value_ru>null</g:value_ru>
             </g:attribute>
             <g:attribute>
                 <g:group_ru>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_ru>
-                <g:attribute_ru>Ширина, мм</g:attribute_ru>
-                <g:value_ru>50</g:value_ru>
-                <g:group_uk>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_uk>
-                <g:attribute_uk>Ширина, мм</g:attribute_uk>
-                <g:value_uk>50</g:value_uk>
+                <g:attribute_ru>Размер</g:attribute_ru>
+                <g:value_ru>null</g:value_ru>
             </g:attribute>
             <g:attribute>
                 <g:group_ru>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_ru>
-                <g:attribute_ru>Защита</g:attribute_ru>
-                <g:value_ru>оцинковка по Сендзимиру</g:value_ru>
-                <g:group_uk>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_uk>
-                <g:attribute_uk>Защита</g:attribute_uk>
-                <g:value_uk>оцинковка по Сендзимиру</g:value_uk>
+                <g:attribute_ru>упаковка</g:attribute_ru>
+                <g:value_ru>1шт.</g:value_ru>
             </g:attribute>
+            <!-- так далее -->
         </g:product_attribute>
     </entry>
 
