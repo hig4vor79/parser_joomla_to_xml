@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
+    <title>TEST</title>
+    <link>https://test.com.ua</link>
+    <updated>2025-03-12T12:13:19.065Z</updated>
+
+    <entry>
+        <g:id>6356</g:id>
+        <g:price>338.000000</g:price>
+        <g:image>Yuvel-BR058-Sh7mm-L18cm-338.JPG</g:image>
+        <g:name>Браслет Xuping</g:name>
+        <g:category_id>175</g:category_id>
+        <g:product_attribute>
+            <g:attribute>
+                <g:group_ru>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_ru>
+                <g:attribute_ru>Материал </g:attribute_ru>
+                <g:value_ru>листовая сталь</g:value_ru>
+                <g:group_uk>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_uk>
+                <g:attribute_uk>Материал </g:attribute_uk>
+                <g:value_uk>листовая сталь</g:value_uk>
+            </g:attribute>
+            <g:attribute>
+                <g:group_ru>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_ru>
+                <g:attribute_ru>Ширина, мм</g:attribute_ru>
+                <g:value_ru>50</g:value_ru>
+                <g:group_uk>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_uk>
+                <g:attribute_uk>Ширина, мм</g:attribute_uk>
+                <g:value_uk>50</g:value_uk>
+            </g:attribute>
+            <g:attribute>
+                <g:group_ru>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_ru>
+                <g:attribute_ru>Защита</g:attribute_ru>
+                <g:value_ru>оцинковка по Сендзимиру</g:value_ru>
+                <g:group_uk>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</g:group_uk>
+                <g:attribute_uk>Защита</g:attribute_uk>
+                <g:value_uk>оцинковка по Сендзимиру</g:value_uk>
+            </g:attribute>
+        </g:product_attribute>
+    </entry>
+
+</feed>
